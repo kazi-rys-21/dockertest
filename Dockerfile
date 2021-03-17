@@ -1,4 +1,4 @@
-FROM python:3.6.1-ubuntu:12.04
+FROM python:3.6.1
 # define the present working directory
 WORKDIR /docker-flask-test
 # copy the contents into the working dir
