@@ -18,7 +18,7 @@ deploy:
   region: "us-east-1"
   app: "dtest"
   env: "Dtest-env"
-  bucket_name: "elasticbeanstalk-us-east-1-258064896703"
+  bucket_name: "elasticbeanstalk-us-east-1"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
