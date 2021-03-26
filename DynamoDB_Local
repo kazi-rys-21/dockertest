@@ -1,0 +1,10 @@
+import boto3
+
+dynamodb = boto3.resource('dynamodb', endpoint_url="http://localhost:8000")
+table = dynamodb.Table('Movies')
+response = table.scan()
+
+data = response['Items']
+print(data)
+for item in data:
+    print(item)
